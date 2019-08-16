@@ -24,7 +24,7 @@ It helps solve the user's anxiety of forgetting things.
 Usage
 To use this app
 # Clone this repository
-$ git clone https://github.com/NativeScript/live-app-android.git
+$ git clone https://github.com/robick/sem8.git
 
 # Go into the repository
 $ cd sem8
