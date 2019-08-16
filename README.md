@@ -1,2 +1,2 @@
-# sem8
+# Sem8
 location based event notification
