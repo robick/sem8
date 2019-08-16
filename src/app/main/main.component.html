@@ -1,0 +1,17 @@
+<Page 
+    xmlns="http://www.nativescript.org/tns.xsd"
+    xmlns:maps="nativescript-google-maps-sdk"
+    >
+    <StackLayout orientation="vertical" width="90%" height="100%" backgroundColor="lightgray">
+        <GridLayout width="80%" height="90%">    
+            <maps:mapView latitude="{{ latitude }}" longitude="{{ longitude }}" mapAnimationsEnabled="{{ mapAnimationsEnabled }}"
+            zoom="{{ zoom }}" bearing="{{ bearing }}" 
+            tilt="{{ tilt }}" padding="{{ padding }}" mapReady="onMapReady"  
+           markerSelect="onMarkerSelect" markerBeginDragging="onMarkerBeginDragging"
+           markerEndDragging="onMarkerEndDragging" markerDrag="onMarkerDrag"
+           cameraChanged="onCameraChanged" 
+                        cameraMove="onCameraMove" />       
+        </GridLayout>
+        <Button class="btn btn-primary btn-active" id="button" text="Add event" (tap)="addEvent()" width="40%" height="10%"></Button>
+      </StackLayout>      
+</Page>
